@@ -1,0 +1,43 @@
+{
+	"name": "PROBETEMPLATEs",
+	"short_name": "TEMPLATEs",
+	"start_url": "./?utm_source=web_app_manifest",
+	"description": " An authentic blog to share your unique thoughts.",
+	"lang": "en",
+	"display": "standalone",
+	"orientation": "portrait",
+	"background_color": "#B0C4DE",
+	"theme_color": "#B0C4DE",
+	"icons": [
+		{
+			"src": "https://pwtblog.vercel.app/logo32x32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "https://pwtblog.vercel.app/logo64x64.png",
+			"sizes": "64x64",
+			"type": "image/png"
+		},
+		{
+			"src": "https://pwtblog.vercel.app/logo128x128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "https://pwtblog.vercel.app/logo144x144.png",
+			"sizes": "144x144",
+			"type": "image/png"
+		},
+		{
+			"src": "https://pwtblog.vercel.app/logo256x256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		},
+		{
+			"src": "https://pwtblog.vercel.app/logo512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
