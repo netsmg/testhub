@@ -61,10 +61,12 @@ fetchChat.on("child_added", function(snapshot) {
   const messageHTML = `
     <div class="container">
       <div class="message-${messageClass}">
-        <div class="message-timestamp-left">${messageData.username}</div>
-        <p class="message-content">${messageData.message}</p>
+          <p class="message-content">${messageData.message}</p>
+       <div class="message-timestamp-left"> ${messageData.username}</div>
+        
       </div>
     </div>`;
+  
   
   // Increment the message count for the next message
   messageCount++;
